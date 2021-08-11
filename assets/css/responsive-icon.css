@@ -1,0 +1,119 @@
+@media screen and (max-width: 719px) {
+    .small-icon {
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .large-icon {
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .extra-large-icon {
+        width: 128px;
+        height: 128px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .small-icon-label {
+        margin-top: 0.4em;
+        font-size: 12px;
+    }
+
+    .medium-icon-label {
+        margin-top: 0.4em;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .large-icon-label {
+        margin-top: 0.4em;
+        font-size: 36px;
+    }
+
+    .extra-large-icon-label {
+        margin-top: 0.4em;
+        font-size: 64px;
+    }
+
+    #about-me {
+        color: #fbd854 !important;
+    }
+
+    #my-resume {
+        color: #4ebcf0 !important;
+    }
+
+    #my-portfolio {
+        color: #f5b88a !important;
+    }
+
+    #contact-me {
+        color: #cc58c6 !important;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1240px) {
+    .small-icon {
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .large-icon {
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .extra-large-icon {
+        width: 128px;
+        height: 128px;
+        text-align: center;
+        color: var(--background-color) !important;
+    }
+
+    .small-icon-label {
+        margin-top: 0.4em;
+        font-size: 12px;
+    }
+
+    .medium-icon-label {
+        margin-top: 0.4em;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .large-icon-label {
+        margin-top: 0.4em;
+        font-size: 36px;
+    }
+
+    .extra-large-icon-label {
+        margin-top: 0.4em;
+        font-size: 64px;
+    }
+
+    #about-me {
+        color: #fbd854 !important;
+    }
+
+    #my-resume {
+        color: #4ebcf0 !important;
+    }
+
+    #my-portfolio {
+        color: #f5b88a !important;
+    }
+
+    #contact-me {
+        color: #cc58c6 !important;
+    }
+}

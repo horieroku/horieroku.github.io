@@ -1,0 +1,105 @@
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly-element {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.primary-font {
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--primary-font);
+    margin: auto;
+}
+
+.special-title {
+    color: var(--background-color);
+}
+
+.card-no-bgcolor {
+    margin: 1em 0px;
+    color: var(--white-color);
+}
+
+.card {
+    margin: 1em 0px;
+    padding: 1em;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+}
+
+.main-card {
+    margin: 0.5em 0;
+    padding: 1em;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 265px;
+}
+
+.main-image {
+    background-image: url("/assets/img/itsuki.jfif");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:first-child,
+.card:last-child,
+.card-no-bgcolor:first-child,
+.card-no-bgcolor:last-child {
+    margin: 0;
+}
+
+.curvy {
+    border-radius: 5px;
+}
+
+.curvy-top-right {
+    border-top-right-radius: 5px;
+}
+
+.curvy-bottom-right {
+    border-bottom-right-radius: 5px;
+}
+
+.curvy-top-left {
+    border-top-left-radius: 5px;
+}
+
+.curvy-bottom-left {
+    border-bottom-left-radius: 5px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color-hover);
+}

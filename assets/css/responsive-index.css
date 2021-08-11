@@ -1,0 +1,96 @@
+@media screen and (max-width: 719px) {
+    body {
+        padding: 0.5em;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--background-color);
+    }
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-areas: "sideBar sideBar";
+    }
+
+    .sideBar {
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        flex-direction: column;
+        grid-area: sideBar;
+        background-color: var(--primary-color);
+    }
+
+    .sideBar > .top {
+        margin: 0 0 1em 0;
+    }
+
+    .sideBar > .body {
+        display: grid;
+        grid-template-areas:
+            "about-me"
+            "my-resume"
+            "my-portfolio"
+            "contact-me";
+        margin: 1em 0 0 0;
+    }
+
+    .mainContent {
+        display: none;
+        padding: 0px 1em;
+        background-color: var(--background-color);
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1240px) {
+    body {
+        padding: 2em;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--background-color);
+    }
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-areas: "sideBar sideBar";
+    }
+
+    .sideBar {
+        width: 100%;
+        display: flex;
+        padding: 1em;
+        flex-direction: column;
+        grid-area: sideBar;
+        background-color: var(--primary-color);
+    }
+
+    .sideBar > .top {
+        margin: 0 0 1em 0;
+    }
+
+    .sideBar > .body {
+        display: grid;
+        grid-template-areas:
+            "about-me"
+            "my-resume"
+            "my-portfolio"
+            "contact-me";
+        margin: 1em 0 0 0;
+    }
+
+    .mainContent {
+        display: none;
+        padding: 0px 1em;
+        background-color: var(--background-color);
+    }
+}
+
+/* RESPONSIVE AT LEAST */
+@media screen and (max-width: 300px) {
+    .grid-container {
+        display: none;
+    }
+}

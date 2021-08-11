@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ammar Yasir</title>
+
+        <link rel="stylesheet" href="assets/css/index.css" />
+        <link rel="stylesheet" href="assets/css/icon.css" />
+        <link rel="stylesheet" href="assets/css/utilities.css" />
+        <link rel="stylesheet" href="assets/css/responsive-index.css" />
+        <link rel="stylesheet" href="assets/css/responsive-icon.css" />
+        <link rel="stylesheet" href="assets/css/responsive-utilities.css" />
+    </head>
+    <body>
+        <iframe
+            src="/assets/mp3/bol4 - BOM.mp3"
+            allow="autoplay"
+            style="display: none"
+            id="iframeAudio"
+        >
+        </iframe>
+        <div class="grid-container">
+            <div class="sideBar curvy">
+                <div class="top width-100">
+                    <div class="card-no-bgcolor space-between-element curvy">
+                        <div class="large-icon card curvy">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class=""
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="3"
+                                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                                />
+                            </svg>
+                        </div>
+                        <h1 class="primary-font">
+                            HELLO I'M
+                            <span class="special-title">EROKU ~</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="body width-100">
+                    <button
+                        id="about-me-btn"
+                        class="btn main-card curvy flex-col center-element"
+                        style="grid-area: about-me"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="small-icon"
+                            id="about-me"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+                        <label class="medium-icon-label">
+                            ABOUT <span id="about-me">ME</span>
+                        </label>
+                    </button>
+                    <button
+                        class="btn main-card curvy flex-col center-element"
+                        style="grid-area: my-resume"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="small-icon"
+                            id="my-resume"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+                        <label class="medium-icon-label"
+                            >MY <span id="my-resume">RESUME</span></label
+                        >
+                    </button>
+                    <button
+                        id="my-portfolio-btn"
+                        class="btn main-card curvy flex-col center-element"
+                        style="grid-area: my-portfolio"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="small-icon"
+                            id="my-portfolio"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z"
+                                clip-rule="evenodd"
+                            />
+                            <path
+                                d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
+                            />
+                        </svg>
+                        <label class="medium-icon-label"
+                            >MY <span id="my-portfolio">PORTFOLIO</span></label
+                        >
+                    </button>
+                    <button
+                        id="contact-me-btn"
+                        class="btn main-card curvy flex-col center-element"
+                        style="grid-area: contact-me"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="small-icon"
+                            id="contact-me"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                            />
+                        </svg>
+                        <label class="medium-icon-label"
+                            >CONTACT <span id="contact-me">ME</span></label
+                        >
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="sideBar curvy" id="about-me">
+                <div class="top width-100">
+                    <div class="card-no-bgcolor space-between-element curvy">
+                        <div class="large-icon card curvy">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class=""
+                                id="about-me"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </div>
+                        <h1 class="primary-font">
+                            ABOUT
+                            <span id="about-me">ME</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="body width-100 flex-col">
+                    <div class="card-no-bgcolor about-me-header">
+                        Personal Info
+                    </div>
+                    <div class="card about-me-body curvy">
+                        <div class="">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-small-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="mainContent">
+                <div class="main-image curvy"></div>
+            </div>
+        </div>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
