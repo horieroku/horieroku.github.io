@@ -1,3 +1,10 @@
+.extra-smaller-icon {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    color: var(--background-color) !important;
+}
+
 .extra-small-icon {
     width: 24px;
     height: 24px;
