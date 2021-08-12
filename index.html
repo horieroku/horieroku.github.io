@@ -14,12 +14,12 @@
         <link rel="stylesheet" href="assets/css/responsive-utilities.css" />
     </head>
     <body>
-        <iframe
+        <!-- <iframe
             src="/assets/mp3/bol4 - BOM.mp3"
             allow="autoplay"
             style="display: none"
             id="iframeAudio"
-        >
+        > -->
         </iframe>
         <div class="grid-container">
             <div class="sideBar curvy">
@@ -138,7 +138,7 @@
                     </button>
                 </div>
             </div>
-            <!-- <div class="sideBar curvy" id="about-me">
+            <div class="sideBar curvy" id="about-me">
                 <div class="top width-100">
                     <div class="card-no-bgcolor space-between-element curvy">
                         <div class="large-icon card curvy">
@@ -167,10 +167,12 @@
                         Personal Info
                     </div>
                     <div class="card about-me-body curvy">
-                        <div class="">
-                            <svg
+                        <p class="about-me-title">I'm Developer from Malaysia, I love to code and do something fun with my programming skill</p>
+                        <div class="about-me-list">
+                            <div class="about-me-list-item" style="grid-area: first-name">
+                                <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="extra-small-icon"
+                                class="extra-smaller-icon"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
                             >
@@ -184,12 +186,177 @@
                                     d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
                                     clip-rule="evenodd"
                                 />
-                            </svg>
-                            <span></span>
+                                </svg>
+                                <label class="margin-left">
+                                    First Name -
+                                </label>
+                                <span class="margin-left">Hori</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: last-name">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Last Name -
+                                </label>
+                                <span class="margin-left">Eroku</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: date-of-birth">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Date of Birth -
+                                </label>
+                                <span class="margin-left">July 6 2000</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: nationality">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Nationality -
+                                </label>
+                                <span class="margin-left">Malaysia</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: phone">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Phone -
+                                </label>
+                                <span class="margin-left">+61 XXX XXXX XXXX</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: email">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Email -
+                                </label>
+                                <span class="margin-left">horieroku@dev</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: address">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Address -
+                                </label>
+                                <span class="margin-left">Johor, Malaysia</span>
+                            </div>
+                            <div class="about-me-list-item" style="grid-area: languages">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="extra-smaller-icon"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                                </svg>
+                                <label class="margin-left">
+                                    Languages -
+                                </label>
+                                <span class="margin-left">English, Melayu</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div class="mainContent">
                 <div class="main-image curvy"></div>
             </div>
