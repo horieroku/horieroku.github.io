@@ -41,6 +41,56 @@
         padding: 0px 1em;
         background-color: var(--background-color);
     }
+
+    /* ABOUT ME */
+    .sideBar#about-me > .body {
+        display: grid;
+        grid-template-areas:
+            "about-me-header"
+            "about-me-body";
+        margin: 1em 0 0 0;
+    }
+
+    .about-me-header {
+        grid-area: about-me-header;
+        font-weight: bold;
+        font-family: var(--primary-font);
+        margin: 0.5em 0 !important;
+    }
+
+    .about-me-title {
+        color: var(--about-me-list-item-color);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.75em;
+    }
+
+    .about-me-list {
+        display: grid;
+        grid-template-areas:
+            "first-name"
+            "last-name"
+            "date-of-birth"
+            "nationality"
+            "phone"
+            "email"
+            "address"
+            "languages";
+    }
+
+    .about-me-list-item {
+        display: flex;
+        padding: 0.75em;
+        align-items: center;
+        font-family: var(--primary-font);
+    }
+
+    .about-me-list-item > span {
+        color: var(--about-me-list-item-color);
+    }
+
+    .about-me-body {
+        grid-area: about-me-body;
+    }
 }
 
 @media screen and (min-width: 720px) and (max-width: 1240px) {
@@ -85,6 +135,52 @@
         display: none;
         padding: 0px 1em;
         background-color: var(--background-color);
+    }
+
+    /* ABOUT ME */
+    .sideBar#about-me > .body {
+        display: grid;
+        grid-template-areas:
+            "about-me-header"
+            "about-me-body";
+        margin: 1em 0 0 0;
+    }
+
+    .about-me-header {
+        grid-area: about-me-header;
+        font-weight: bold;
+        font-family: var(--primary-font);
+        margin: 0.5em 0 !important;
+    }
+
+    .about-me-title {
+        color: var(--about-me-list-item-color);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0.75em;
+    }
+
+    .about-me-list {
+        display: grid;
+        grid-template-areas:
+            "first-name phone"
+            "last-name email"
+            "date-of-birth address"
+            "nationality languages";
+    }
+
+    .about-me-list-item {
+        display: flex;
+        padding: 0.75em;
+        align-items: center;
+        font-family: var(--primary-font);
+    }
+
+    .about-me-list-item > span {
+        color: var(--about-me-list-item-color);
+    }
+
+    .about-me-body {
+        grid-area: about-me-body;
     }
 }
 
